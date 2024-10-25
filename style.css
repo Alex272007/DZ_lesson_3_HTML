@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'gilroy-bold';
+    src: url('./font/gilroy-bold.ttf');
+}
+
+@font-face {
+    font-family: 'gilroy-medium';
+    src: url('./font/gilroy-medium.ttf');
+}
+
+@font-face {
+    font-family: 'gilroy-semibold';
+    src: url('./font/gilroy-semibold.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+    background: #FFFFFF;
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+h1 {
+    color: #000;
+    font-family: 'gilroy-bold';
+    src: url('./font/gilroy-bold.ttf');
+}
+
+p {
+    color: #888;
+    font-family: 'gilroy-medium';
+    src: url('./font/gilroy-medium.ttf');
+}
+
+button, a {
+    font-family: 'gilroy-semibold';
+    src: url('./font/gilroy-semibold.ttf');
+}
+
+.container {
+    max-width: 1289px;
+    margin: 0 auto;
+}
+
+.logosHeader {
+    padding: 40px;
+}
+
+.navigation {}
+
+.navigation__menu {
+    color: #F25822;
+}
+
+.mainContent__leftSide {
+    font-size: 60px;
+    line-height: 70px;
+
+}
+
+.mainContent__leftSide p {
+    margin-bottom: 16px;
+}
+
+.mainContent__leftSide-btnList {
+    margin-bottom: 80px;
+}
+
+.mainContent__leftSide-btnList1 {
+    padding: 15px 35px;
+    background: #F25822;
+    border-radius: 50px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 103px;
+}
+
+.mainContent__leftSide-btnList2 {
+    background: none;
+    color: #888;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 103px;
+}
+
+.footer {
+    margin-bottom: 96px;
+}
