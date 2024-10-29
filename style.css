@@ -48,32 +48,62 @@ button, a {
 }
 
 .container {
-    max-width: 1289px;
+    max-width: 1170px;
     margin: 0 auto;
+}
+
+.header {
+    padding: 21px 0;
+    margin-bottom: 84px;
 }
 
 .logosHeader {
     padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.navigation {}
+.navigation {
+    width: 533px;
+    display: flex;
+    justify-content: space-between;
+}
 
 .navigation__menu {
     color: #F25822;
 }
 
-.mainContent__leftSide {
-    font-size: 60px;
-    line-height: 70px;
+.main {
+    margin-bottom: 162px;
+}
+
+.mainContent {
+    display: flex;
+
+    justify-content: space-between;
 
 }
 
+.mainContent__leftSide h1 {
+    font-size: 60px;
+    line-height: 70px;
+    max-width: 522px;
+    margin-bottom: 17px;
+}
+
 .mainContent__leftSide p {
-    margin-bottom: 16px;
+    max-width: 466px;
+    height: 48px;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 37px;
 }
 
 .mainContent__leftSide-btnList {
     margin-bottom: 80px;
+    display: flex;
+    gap: 72px;
 }
 
 .mainContent__leftSide-btnList1 {
@@ -83,7 +113,6 @@ button, a {
     color: #FFFFFF;
     border: none;
     cursor: pointer;
-    margin-bottom: 103px;
 }
 
 .mainContent__leftSide-btnList2 {
@@ -91,9 +120,13 @@ button, a {
     color: #888;
     border: none;
     cursor: pointer;
-    margin-bottom: 103px;
 }
 
 .footer {
     margin-bottom: 96px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
 }
