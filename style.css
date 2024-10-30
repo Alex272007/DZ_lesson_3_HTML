@@ -53,12 +53,11 @@ button, a {
 }
 
 .header {
-    padding: 21px 0;
+    padding: 40px 0;
     margin-bottom: 84px;
 }
 
 .logosHeader {
-    padding: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
