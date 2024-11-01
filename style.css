@@ -13,6 +13,11 @@
     src: url('./font/gilroy-semibold.ttf');
 }
 
+@font-face {
+    font-family: 'gilroy-regular';
+    src: url('./font/gilroy-regular.ttf');
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -30,7 +35,7 @@ img {
     max-width: 100%;
 }
 
-h1 {
+h1, h2, h5 {
     color: #000;
     font-family: 'gilroy-bold';
     src: url('./font/gilroy-bold.ttf');
@@ -73,15 +78,10 @@ button, a {
     color: #F25822;
 }
 
-.main {
-    margin-bottom: 162px;
-}
-
 .mainContent {
     display: flex;
-
     justify-content: space-between;
-
+    margin-bottom: 162px;
 }
 
 .mainContent__leftSide h1 {
@@ -121,11 +121,131 @@ button, a {
     cursor: pointer;
 }
 
-.footer {
-    margin-bottom: 96px;
-}
-
 .logos {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 96px;
+}
+
+.featuresList {
+    padding: 140px 0 125px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.featuresList_card {
+    padding: 40px 30px 25px 30px;
+    width: 381px;
+    height: 291px;
+}
+
+.image {
+    margin-bottom: 25px;
+}
+
+.featuresList_card-center {
+    background: #FFFFFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.featuresList_card h2 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 17px;
+}
+
+.featuresList_card p {
+    font-family: 'gilroy-regular';
+    src: url('./font/gilroy-regular.ttf');
+    font-size: 15px;
+    line-height: 150%;
+    color: #666666;
+    margin-bottom: 25px;
+}
+
+.featuresList_card h5 {
+    font-size: 11px;
+    line-height: 150%;
+    color: #000000;
+    cursor: pointer;
+}
+
+.servicesList {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+
+.servicesList_service {
+    display: flex;
+    justify-content: center;
+}
+
+.servicesList h1 {
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 19px;
+    align-items: center;
+}
+
+.servicesList p {
+    font-family: 'gilroy-regular';
+    src: url('./font/gilroy-regular.ttf');
+    font-size: 16px;
+    line-height: 150%;
+    max-width: 682px;
+    text-align: center;
+
+}
+
+.servicesList_service {
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicesList_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.servicesList_card h2 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 22px;
+    align-items: center;
+}
+
+.servicesList_card p {
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    color: #AAAAAA;
+    margin-bottom: 39px;
+    width: 310px;
+    height: 63px;
+}
+
+.servicesList_btn {
+    font-size: 13px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    background: #F25822;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 100px;
+}
+
+.servicesList_card-center {
+    background: #FFFFFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.1);
 }
