@@ -176,6 +176,7 @@ button, a {
 }
 
 .servicesList {
+    padding: 92px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
